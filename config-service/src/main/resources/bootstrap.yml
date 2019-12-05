@@ -1,3 +1,15 @@
+spring:
+    profiles:
+        active: native
+    cloud:
+        config:
+            server:
+                native:
+                    searchLocations: C:\Users\ieb\git\sample-spring-microservices-new\config-service
 server:
   port: 8088
-   
+
+
+endpoints:
+    restart:
+      enabled: true
